@@ -1,0 +1,15 @@
+# Configuración SOLO para tu computadora. Está en .gitignore: nunca la subas a GitHub.
+# Se activa con el perfil "local" (en IntelliJ: Edit Configurations -> Active profiles = local).
+spring:
+  datasource:
+    password: postgre
+
+app:
+  jwt:
+    secret: Hfo7YdidJhNAZEtZ34s4lkgskNUnS03PocFRFjj0X8TlbN0RgxD3GIbhrFWCA7N0
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
